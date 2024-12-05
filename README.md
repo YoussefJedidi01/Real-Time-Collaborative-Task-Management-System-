@@ -15,7 +15,7 @@ A **Real-Time Collaborative Task Management System** that allows users to manage
 ## Technologies
 - **Java**: Programming language used for backend implementation.
 - **RMI (Remote Method Invocation)**: For communication between client and server over a network.
-- **Multithreading**: Each client action (e.g., add, update, delete task) runs in its own thread on the server to ensure parallel processing.
+- **Multithreading**: Each client action (e.g., add, update, delete task) runs in its own thread on the server to ensure parallel processing. **Threads are synchronized** to ensure that data integrity is maintained when multiple clients interact with the system concurrently.
 
 ## Project Structure
 - **Client.java**: The client-side application where users interact with the system, performing tasks like viewing, adding, and updating tasks.
@@ -24,12 +24,13 @@ A **Real-Time Collaborative Task Management System** that allows users to manage
 - **TaskManagerImplement.java**: The implementation of the `TaskManagerInterface` where the task management logic is executed.
 - **Task.java**: The model class representing a task with details like ID, title, description, priority, status, and assignment.
 - **User.java**: The model class representing a user with username and password for authentication.
+- **ClientActionHandler.java**: This class is responsible for handling client actions (such as adding, updating, or deleting tasks) in separate threads. It ensures that each client request is processed independently, improving the overall performance of the system by allowing concurrent operations.
 
 ## Installation
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/task-management-system.git
+   git clone https://github.com/YoussefJedidi01/task-management-system.git
    cd task-management-system
 2. **Compile the Java files:**
 javac *.java
@@ -37,6 +38,7 @@ javac *.java
 java Server.java
 4. **Run the client:**
 java Client.java
+"Here, you can run multiple clients with multiple actions simultaneously."
 
 ## Usage
 1. **Login:**
