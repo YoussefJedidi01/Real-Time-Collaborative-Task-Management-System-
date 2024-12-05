@@ -44,20 +44,19 @@ java Client.java
 1. **Login:**
 
 The client will prompt you for a username and password. Default users include:
-Username: admin, Password: admin123
-Username: user1, Password: password1
-Username: user2, Password: password2
+- Username: admin, Password: admin123
+- Username: user1, Password: password1
+- Username: user2, Password: password2
 
+2. **Main Menu Options:**
+- View tasks: View tasks assigned to the user.
+- Add a new task: Add a new task (ensure to follow the format for assignedTo).
+- Update an existing task: Update a task's details (only tasks assigned to you can be updated).
+- Delete a task: Delete a task (can only delete tasks assigned to you unless you are an admin).
+- Search tasks: Search tasks by keyword or filter (e.g., title, status).
+- Export tasks: Export tasks in CSV format.
+- Get task statistics: Get statistics of tasks assigned to the user (e.g., pending, finished, etc.).
 
-3. **Main Menu Options:**
-   
-View tasks: View tasks assigned to the user.
-Add a new task: Add a new task (ensure to follow the format for assignedTo).
-Update an existing task: Update a task's details (only tasks assigned to you can be updated).
-Delete a task: Delete a task (can only delete tasks assigned to you unless you are an admin).
-Search tasks: Search tasks by keyword or filter (e.g., title, status).
-Export tasks: Export tasks in CSV format.
-Get task statistics: Get statistics of tasks assigned to the user (e.g., pending, finished, etc.).
 
 
 ## Contributing
