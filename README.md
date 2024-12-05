@@ -62,11 +62,11 @@ java Client.java
 Contributions are welcome! If you'd like to improve this project, feel free to fork the repository, make your changes, and create a pull request.
 
 ## Steps to Contribute:
-1-Fork the repository.
-2-Create a new branch for your changes.
-3-Make your changes and commit them.
-4-Push your branch to your forked repository.
-5-Open a pull request to merge your changes into the main repository.
+1. Fork the repository.  
+2. Create a new branch for your changes.  
+3. Make your changes and commit them.  
+4. Push your branch to your forked repository.  
+5. Open a pull request to merge your changes into the main repository.
 
 ## License
 This project is open source and available under the MIT License.
