@@ -30,7 +30,7 @@ A **Real-Time Collaborative Task Management System** that allows users to manage
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/YoussefJedidi01/task-management-system.git
+   git clone https://github.com/YoussefJedidi01/Real-Time-Collaborative-Task-Management-System-
    cd task-management-system
 2. **Compile the Java files:**
 javac *.java
