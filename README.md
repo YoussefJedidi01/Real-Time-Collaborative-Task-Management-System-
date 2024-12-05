@@ -43,10 +43,10 @@ java Client.java
 ## Usage
 1. **Login:**
 
-    The client will prompt you for a username and password. Default users include:
-        Username: admin, Password: admin123
-        Username: user1, Password: password1
-        Username: user2, Password: password2
+  The client will prompt you for a username and password. Default users include:
+    - Username: admin, Password: admin123
+    - Username: user1, Password: password1
+    - Username: user2, Password: password2
 
 2. **Main Menu Options:**
 
